@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sanrio Dex</title>
+  <style>
+    body {
+      background-color: #fffafa;
+      color: #d36ba6;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      padding: 2rem;
+      background: #ffe4f2;
+      border-bottom: 4px solid #ffcce0;
+    }
+    .pokedex-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      padding: 2rem;
+    }
+    .character-card {
+      background: #fff0f5;
+      border: 3px solid #ffc0cb;
+      border-radius: 20px;
+      padding: 2rem;
+      width: 280px;
+      text-align: center;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+    .character-card img {
+      width: 160px;
+      height: 160px;
+      border-radius: 12px;
+    }
+    .character-card h2 {
+      margin-top: 1rem;
+      font-size: 1.5rem;
+    }
+    .character-card p {
+      margin: 0.5rem 0;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Sanrio Dex</h1>
+  </header>
+  <main class="pokedex-grid">
+    <div class="character-card">
+      <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGx4OGNweGdxbzI1ZHFqMHlnOGpuenIwcG9qcWV5NTNodnd1eHN6byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/jwT5LHfVszxpNGq2Lt/giphy.gif" alt="Hello Kitty">
+      <h2>Hello Kitty</h2>
+      <p>Tipo: Amor</p>
+      <p>ATK: 85 | DEF: 90</p>
+      <p>Ataque Final: Abrazo Estelar</p>
+    </div>
+    <div class="character-card">
+      <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbjdxODFhZTQxNTY2ZnFuMnZ0eGl4dzB6eWFrYnFpOTZzdGV1NGFkcSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Zs6TSVFLeIJNcrAcFS/giphy.gif" alt="My Melody">
+      <h2>My Melody</h2>
+      <p>Tipo: Ternura</p>
+      <p>ATK: 70 | DEF: 95</p>
+      <p>Ataque Final: Canción Dulce</p>
+    </div>
+    <div class="character-card">
+      <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNnQ1NjlrNmw5czk3NWIybWUzbTJhNHRldXZ2ejhjNXlnOGE2aHZ0bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/fPRaCuwNvxUTc5nqGd/giphy.gif" alt="Kuromi">
+      <h2>Kuromi</h2>
+      <p>Tipo: Rebelde Cute</p>
+      <p>ATK: 95 | DEF: 80</p>
+      <p>Ataque Final: Rayo Travieso</p>
+    </div>
+    <div class="character-card">
+      <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNHN1ZGZldzJ5cnN5emQ2Ymh1cGJ1NXkydWhyY2J2M2NoaThqbnBqYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/LFEl4zNADsP67RYu2l/giphy.gif" alt="Cinnamoroll">
+      <h2>Cinnamoroll</h2>
+      <p>Tipo: Alegría</p>
+      <p>ATK: 78 | DEF: 88</p>
+      <p>Ataque Final: Torbellino de Sonrisas</p>
+    </div>
+    <div class="character-card">
+      <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExc2Y1cm9tZG5lOWd5Y3htZGM4cTltdHFtZ21sMTZ2NHkxb2N0dTJ6cyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/BnpIAVFnLBYeuxeRRK/giphy.gif" alt="Pompompurin">
+      <h2>Pompompurin</h2>
+      <p>Tipo: Comodidad</p>
+      <p>ATK: 65 | DEF: 92</p>
+      <p>Ataque Final: Siesta Gigante</p>
+    </div>
+    <div class="character-card">
+      <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOG5hb3hhZHdvazBqa2h6Yzh1aHl3YmM2bjV4cHNydmVxcTFkZm9laSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/CjNZwHfzqdOionQ09d/giphy.gif" alt="Pochaco">
+      <h2>Pochaco</h2>
+      <p>Tipo: Energía</p>
+      <p>ATK: 88 | DEF: 85</p>
+      <p>Ataque Final: Carrera Sonriente</p>
+    </div>
+    <div class="character-card">
+      <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXJxcmhsM2EzdWF6MDNoaHI4bXZ1aXd4MTUxanpybWIzaDdmOGk2aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/K9IU3oVxpMkWGJ87yn/giphy.gif" alt="Aggretsuko">
+      <h2>Aggretsuko</h2>
+      <p>Tipo: Furia Cute</p>
+      <p>ATK: 100 | DEF: 70</p>
+      <p>Ataque Final: Grito Metálico</p>
+    </div>
+    <div class="character-card">
+      <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYnI5Nm9mM294ejgzYW44cmRwaTdkeDJkOWZ4M2Q5bG5kaGI3b2lxaCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/aR5F43Bds1iNRhsqIZ/giphy.gif" alt="Badtz-Maru">
+      <h2>Badtz-Maru</h2>
+      <p>Tipo: Actitud</p>
+      <p>ATK: 82 | DEF: 88</p>
+      <p>Ataque Final: Burla Ninja</p>
+    </div>
+    <div class="character-card">
+      <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3Mxc3p5bWFtNnkyczhvZ2JnazFvYnZlcHY3a3IwbWptdXBkc3ZybiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/huTMuRSvrKpds397lO/giphy.gif" alt="Chococat">
+      <h2>Chococat</h2>
+      <p>Tipo: Curioso</p>
+      <p>ATK: 79 | DEF: 89</p>
+      <p>Ataque Final: Eco Choco</p>
+    </div>
+    <div class="character-card">
+      <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXphOWlwa2cyazl0bGlvOG9nNnJveGtvNmg2Mm5wcjF6bXFsb2g5NCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/oWSU0FySOsXJMqZAPs/giphy.gif" alt="Gudetama">
+      <h2>Gudetama</h2>
+      <p>Tipo: Flojera</p>
+      <p>ATK: 60 | DEF: 98</p>
+      <p>Ataque Final: Derrumbe Amarillo</p>
+    </div>
+    <div class="character-card">
+      <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbHJxNHNkMGprbXBwYWQ2aGM4ZHpubDFjZ2t3OWJtb2UzZGVsdm9oZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Su7Jt6xxuzBGKdi7ek/giphy.gif" alt="Keroppi">
+      <h2>Keroppi</h2>
+      <p>Tipo: Optimismo</p>
+      <p>ATK: 83 | DEF: 82</p>
+      <p>Ataque Final: Salto Feliz</p>
+    </div>
+    <div class="character-card">
+      <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExenIwenR2NGo5Zno1aGdqM2Q5Y2RvMXd0Z3FkanlvZXJ3bXF0bDM4YyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Vj3zLtC7WFw74e4XSW/giphy.gif" alt="Little Twin Stars">
+      <h2>Little Twin Stars</h2>
+      <p>Tipo: Sueños</p>
+      <p>ATK: 77 | DEF: 91</p>
+      <p>Ataque Final: Nube Arcoíris</p>
+    </div>
+  </main>
+</body>
+</html>
